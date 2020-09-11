@@ -13,4 +13,11 @@ public class MyResource {
     public String getIt() {
         return "Got it!";
     }
+    
+    @Path("Hi")
+    @GET
+    @Produces(MediaType.TEXT_PLAIN)
+    public String hi() {
+        return "Got it!";
+    }
 }
